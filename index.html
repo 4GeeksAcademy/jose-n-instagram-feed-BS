@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Instagram Feed</title>
+</head>
+<body>
+
+   
+    <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid d-flex flex-row">
+            <a class="navbar-brand me-auto" href="#">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSr7A-iO0im7zectdU5ii8z3noYwBOFq4VC6A&s" alt="" width="30" height="24" class="d-inline-block align-text-top">
+             Instagram
+            </a>
+
+            <button type="button" class="btn btn-success mx-2" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Create a new post</button>
+           
+
+
+            <div class="dropdown">
+                <button type="button" class="btn btn-secondary dropdown-toggle me-0" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false"><i class="fa-solid fa-gear"></i></button>
+                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1">
+                    <li><a class="dropdown-item" href="#">Profile</a></li>
+                    <li><a class="dropdown-item" href="#">Accesibility</a></li>
+                    <li><a class="dropdown-item" href="#">Privacy and Data</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item text-danger" href="#">Logout</a></li>
+                </ul>
+            </div>
+
+            <!-- Modal -->
+            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="staticBackdropLabel">Create a new post</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                    <div class="modal-body d-flex flex-column">
+                        <form action="">
+                            <div class="mb-3">
+                                <label for="message-text" class="col-form-label">Caption:</label>
+                                <textarea class="form-control" id="message-text">Add the caption of your post here</textarea>
+                            </div>
+                        </form>
+
+                        <div>
+                            <button type="button" class="btn btn-light"><i class="fa-solid fa-camera"></i></button>
+                            <button type="button" class="btn btn-light"><i class="fa-solid fa-location-dot"></i></button>
+                        </div>
+
+
+                    </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-success">Publish</button>
+                </div>
+            </div>
+
+
+        </div>
+    </nav>
+
+    <div class="container-fluid grid-instagram">
+        <div class="row">
+            <div class="col-12 d-flex justify-content-center">
+
+                <a href="index.html"><button type="button" class="btn"><i class="fa-solid fa-table-cells"></i></button></a>
+                <a href="index2.html"><button type="button" class="btn"><i class="fa-solid fa-square"></i></button></a>
+                
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-4">
+
+                <img src="https://i.ytimg.com/vi/A2F2UdGVgNY/hq720.jpg?sqp=-oaymwE7CK4FEIIDSFryq4qpAy0IARUAAAAAGAElAADIQj0AgKJD8AEB-AH-CYAC0AWKAgwIABABGGUgRChDMA8=&rs=AOn4CLAoKCF-RsbMImDjpF2L0EsTkxQT_A" class="img-fluid object-fit-scale border">
+
+            </div>
+
+            <div class="col-4">
+                <img src="https://i.pinimg.com/originals/48/8c/d5/488cd559411be6d05f5ac0e80eb9c9cc.jpg" class="img-fluid">
+                
+            </div>
+
+            <div class="col-4">
+                <img src="https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2023/08/interstellar-3114658.jpg?tf=1200x900" class="img-fluid">
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-4">
+
+                <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/11/9a/1f/cinderella-castle.jpg?w=1200&h=-1&s=1" class="img-fluid">
+
+            </div>
+
+            <div class="col-4">
+                <img src="https://www.flyingmag.com/uploads/2022/07/shutterstock_559714906-scaled.jpg?auto=webp" class="img-fluid">
+                
+            </div>
+
+            <div class="col-4">
+                <img src="https://cdn.choosechicago.com/uploads/2022/10/Chicago_fall_skyline_reduced-scaled-e1696273237364.jpg" class="img-fluid">
+            </div>
+                
+
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-4">
+                <img src="https://www.hola.com/horizon/original_aspect_ratio/5074364285ea-hts-zb5766269906196-a.jpg" class="img-fluid">
+
+            </div>
+
+            <div class="col-4">
+                
+                <img src="https://images.mnstatic.com/08/7d/087dfd415e06b0651f4528fea6642818.jpg" alt="" class="img-fluid">
+            </div>
+
+            <div class="col-4">
+                <img src="https://a0.muscache.com/im/pictures/78907363-c4e5-48e7-826f-6982d0d3ab74.jpg" alt="" class="img-fluid">
+                
+            </div>
+        </div>
+
+    </div>
+
+   
+    
+</body>
+</html>
